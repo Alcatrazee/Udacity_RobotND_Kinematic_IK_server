@@ -15,3 +15,4 @@
 This is the one  
 
 #### Kinematic Analysis
+[image1]: ./repo_pictures/FK.jpg
