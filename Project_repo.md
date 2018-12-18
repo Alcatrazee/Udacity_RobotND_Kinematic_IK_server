@@ -9,10 +9,20 @@
 5.Perform Kinematic Analysis for the robot following the [project rubric](https://review.udacity.com/#!/rubrics/972/view).  
 6.Fill in the **IK_server.py** with your Inverse Kinematics code.
 ## [Rubric](https://review.udacity.com/#!/rubrics/972/view) Points
+
+[//]: # (Image References)
+
+[image1]: ./repo_pictures/FK.jpg
+
+
 #### Writeup/README
 1.Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf.  
 
 This is the one  
 
-#### Kinematic Analysis
-[image1]: ./repo_pictures/FK.jpg
+#### Kinematic Analysis  
+
+I did not use the frames set from urdf file,instead,I used the original frames set like this.  
+![image1]  
+Then create the DH Table for this robot.
+
