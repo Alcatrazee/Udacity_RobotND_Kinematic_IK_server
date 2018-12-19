@@ -27,9 +27,9 @@
 [rm_456]:./repo_pictures/rotation_matrix_456.jpg
 [r36]: ./repo_pictures/R3_6.jpg
 [r03]: ./repo_pictures/R_03.jpg
-[screenshot1]: ./repo_pictures/upload
-[screenshot2]: ./repo_pictures/upload2
-[screenshot3]: ./repo_pictures/upload3
+[screenshot1]: ./repo_pictures/upload.png
+[screenshot2]: ./repo_pictures/upload2.png
+[screenshot3]: ./repo_pictures/upload3.png
 
 #### Writeup/README
 1.Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf.  
