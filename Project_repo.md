@@ -27,7 +27,9 @@
 [rm_456]:./repo_pictures/rotation_matrix_456.jpg
 [r36]: ./repo_pictures/R3_6.jpg
 [r03]: ./repo_pictures/R_03.jpg
-
+[screenshot1]: ./repo_pictures/upload
+[screenshot2]: ./repo_pictures/upload2
+[screenshot3]: ./repo_pictures/upload3
 
 #### Writeup/README
 1.Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf.  
@@ -90,4 +92,16 @@ Here I just put the easiest solution.
 ![alt_text][t4]  
 ![alt_text][t5]  
 ![alt_text][t6]
-The other solutions are like θ<sub>4</sub> rotate 180 or 360 degree and θ<sub>5</sub> and θ<sub>6</sub> rotate too.
+The other solutions are like θ<sub>4</sub> rotate 180 or 360 degree and θ<sub>5</sub> and θ<sub>6</sub> rotate too.  
+#### Project Implementation
+##### 1. Fill in the IK_server.py file with properly commented python code for calculating Inverse Kinematics based on previously performed Kinematic Analysis. Your code must guide the robot to successfully complete 8/10 pick and place cycles. Briefly discuss the code you implemented and your results.
+My code can guide the robot to complete 10/10 pick and place cycles,for it took me almost or more than one weeks full time to make. 
+There's comment in the python file,so I will not introduce the process of it.I will talk about what I think is unique to others works.  
+###### 1.The code will calculate 32 solutions of the robot,though not all of them are reachable.After the calculation,there will be a cost evaluation to evaluate the cost of each reachable solution,then will show the one with the lowest cost and execute it.  
+
+###### 2.Required current joint position,the robot is able to calculate the cost of each solution,and set the current joint position by forward kinematic,and iterate till all points are calculated the IK.What matters is the cost function,I set a high cost of the movement of joint 1,the joint 2 and joint 3 have the same cost,joint 4 5 and 6 have the lowest cost,I think it's reasonable because I've learnd that next move should be close to the current gesture as much as possible.  
+Here's the way to run my code.First,start the safe_spawn.sh,then run the script with name of **transmitter.py** then run **IK_server.py**.
+Here's some screenshots of the running code.  
+![alt_text][screenshot1]  
+![alt_text][screenshot2]  
+![alt_text][screenshot3]  
