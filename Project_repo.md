@@ -105,3 +105,4 @@ Here's some screenshots of the running code.
 ![alt_text][screenshot1]  
 ![alt_text][screenshot2]  
 ![alt_text][screenshot3]  
+In the last screenshot,three curve represent the error of 3 positions of FK to the target position.
