@@ -14,6 +14,7 @@
 
 [image1]: ./repo_pictures/FK.jpg
 [image2]: ./repo_pictures/equation.jpg
+[image3]: ./repo_pictures/equation_t.jpg
 
 #### Writeup/README
 1.Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf.  
@@ -39,4 +40,6 @@ Links(i) | α<sub>i-1</sub>| a<sub>i-1</sub>|d<sub>i</sub>|θ<sub>i</sub>|
 
 Due to we are calculating the posture of end-effector,we need to add one more row to the DH Table.  
 After obtainning the DH Table,we can calculate the transformation matrices between each joint,the form of the matrices is like this.  
-![alt_text][image2]
+![alt_text][image2]  
+Therefore,we can calculate the transformation matrix of end-effector to base in this way.  
+![alt_text][image3]  
