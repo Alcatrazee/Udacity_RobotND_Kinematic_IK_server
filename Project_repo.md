@@ -25,7 +25,8 @@ This is the one
 I did not use the frames set from urdf file,instead,I used the original frames set like this.  
  
 Then create the DH Table for this robot.
-[image1] 
+[image1]  
+
 Links(i) | α<sub>i-1</sub>| a<sub>i-1</sub>|d<sub>i</sub>|θ<sub>i</sub>|
 ---|---|---|---|---|
 1 | 0|0|0.75|θ<sub>1</sub>|
