@@ -13,7 +13,7 @@
 
 
 [image1]: ./repo_pictures/FK.jpg
-
+[image2]: ./repo_pictures/equation.jpg
 
 #### Writeup/README
 1.Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf.  
@@ -39,4 +39,4 @@ Links(i) | α<sub>i-1</sub>| a<sub>i-1</sub>|d<sub>i</sub>|θ<sub>i</sub>|
 
 Due to we are calculating the posture of end-effector,we need to add one more row to the DH Table.  
 After obtainning the DH Table,we can calculate the transformation matrices between each joint,the form of the matrices is like this.  
-`$ {^{i-1}_{i}T} = R_x({α^{}_{i-1}})T_x({a^{}_{i-1}})R_z(θ_i)T_z(d_i)  $`
+![alt_text][image2]
