@@ -90,3 +90,4 @@ Here I just put the easiest solution.
 ![alt_text][t4]  
 ![alt_text][t5]  
 ![alt_text][t6]
+The other solutions are like θ<sub>4</sub> rotate 180 or 360 degree and θ<sub>5</sub> and θ<sub>6</sub> rotate too.
