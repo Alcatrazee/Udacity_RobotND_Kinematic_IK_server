@@ -25,7 +25,7 @@ This is the one
 I did not use the frames set from urdf file,instead,I used the original frames set like this.  
  
 Then create the DH Table for this robot.
-
+[image1] 
 Links(i) | α<sub>i-1</sub>| a<sub>i-1</sub>|d<sub>i</sub>|θ<sub>i</sub>|
 ---|---|---|---|---|
 1 | 0|0|0.75|θ<sub>1</sub>|
@@ -34,9 +34,8 @@ Links(i) | α<sub>i-1</sub>| a<sub>i-1</sub>|d<sub>i</sub>|θ<sub>i</sub>|
 4 |-pi/2|-0.054|1.5|θ<sub>4</sub>|
 5 |pi/2|0|0|θ<sub>5</sub>|
 6 |-pi/2|0|0|θ<sub>6</sub>|  
-7 |0|0|0.303|0|
+7 |0|0|0.303|0|  
+
 Due to we are calculating the posture of end-effector,we need to add one more row to the DH Table.  
-
 After obtainning the DH Table,we can calculate the transformation matrices between each joint,the form of the matrices is like this.  
-
 `$ {^{i-1}_{i}T} = R_x({α^{}_{i-1}})T_x({a^{}_{i-1}})R_z(θ_i)T_z(d_i)  $`
